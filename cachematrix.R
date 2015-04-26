@@ -1,7 +1,7 @@
 ## The following two functions calculate and cache the inverse of an invertible 
 ## matrix. 
 ## The first function (makeCacheMatrix) stores a list of functions (set, get, 
-## setinv, getinv) 
+## setinv, getinv), two of which compute and cache the inverse
 ## The second function uses the list of functions stored by makeCacheMatrix to
 ## return the inverse of the matrix either from the cache or by computation.
 
